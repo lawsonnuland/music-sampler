@@ -1,0 +1,59 @@
+h1 {
+  font-size: 50px;
+  font-family: "Palatino Linotype", "Book Antiqua", serif;
+  padding: .2em;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+body {
+  background: #a9a9a9;
+  margin: 0px;
+}
+
+p {
+  font-size: 18px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  padding: .5em;
+}
+
+img {
+  text-align: center;
+  position: relative;
+  min-width: 20%;
+}
+
+.album {
+  max-width: 33%;
+  padding: .1em;
+}
+
+#big {
+  min-width: 100%;
+  padding: 0em;
+}
+
+#music {
+  text-align: center;
+  float: none;
+  background: #778899;
+  padding-top: .75em;
+  padding-bottom: .75em;
+}
+
+audio {
+  min-width: 50%;
+}
+
+#footer {
+  text-align: center;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: 30px;
+  }
+}
